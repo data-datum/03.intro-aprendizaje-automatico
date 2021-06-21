@@ -40,11 +40,9 @@ Este conjunto de datos contiene los valores de las propiedades en la región de 
     LSTAT: porcentaje de población de menor status.
     MEDV: valor medio de viviendas ocupadas por sus propietarios, en miles de dólares.
 
-
-*Este dataset no contiene valores nulos, por lo que no es necesario hacer imputaciones.* 
-
-
-**Importante**: Durante este análisis no realizaron cálculos ni transformaciones matemáticas que tengan que ver limpieza y curación de datos. 
+**Notas**
+* Este dataset no contiene valores nulos, por lo que no es necesario hacer imputaciones.
+* Durante este análisis no realizaron cálculos ni transformaciones matemáticas que tengan que ver limpieza y curación de datos. 
 
 
 #### Breve descripción de los análisis realizados
