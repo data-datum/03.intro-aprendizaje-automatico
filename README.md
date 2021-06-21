@@ -42,6 +42,8 @@ Este conjunto de datos contiene los valores de las propiedades en la región de 
 
 
 *Este dataset no contiene valores nulos, por lo que no es necesario hacer imputaciones.* 
+
+
 **Importante**: Durante este análisis no realizaron cálculos ni transformaciones matemáticas que tengan que ver limpieza y curación de datos. 
 
 
