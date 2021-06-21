@@ -47,7 +47,7 @@ Este conjunto de datos contiene los valores de las propiedades en la región de 
 **Visualización de los Datos**
 En esta instancia se realizaron gráficos exploratorios para identificar visualmente variables que son más importantes para los posteriores análisis, en este caso, de regresión. 
 
-
+![Image text](https://github.com/data-datum/03.intro-aprendizaje-automatico/blob/main/scatterplots.jpg)
 
 **Regresión lineal**
 Se eligió una variable del dataset, se realizó una regresión lineal simple y se evaluó la recta con las métricas correspondientes. Esta variable fue `LSTAT`. 
