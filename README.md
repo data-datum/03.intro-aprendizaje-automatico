@@ -20,7 +20,8 @@ En este repositorio se encuentran los dos notebooks correspondientes a los dos e
 En esta primer entrega se trabajó con el dataset de *Boston House Prices*, el cual está disponible en el UCI Machine Learning
 https://archive.ics.uci.edu/ml/machine-learning-databases/housing/
 
-#### Descripción de las variables dentro del dataset
+#### Descripción de las variables dentro del dataset 
+*(Para un análisis más detallado ver el notebook con nombre `Labo-1.ipynb`)* 
 
 Este conjunto de datos contiene los valores de las propiedades en la región de Boston, donde se considera la información de:
 
