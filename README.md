@@ -53,8 +53,12 @@ En esta instancia se realizaron gráficos exploratorios para identificar visualm
 Se eligió una variable del dataset, se realizó una regresión lineal simple y se evaluó la recta con las métricas correspondientes. Esta variable fue `LSTAT`. 
 
 
+![Image text](https://github.com/data-datum/03.intro-aprendizaje-automatico/blob/main/regresion-lineal.jpg)
+
 **Regresión Polinomial**
 Con la misma variable del punto anterior, se realizó una regresión polinomial. Se evaluaron lo resultados correspondientes. 
+
+![Image text](https://github.com/data-datum/03.intro-aprendizaje-automatico/blob/main/reg-pol.png)
 
 
 **Regresión con más de una variable**
