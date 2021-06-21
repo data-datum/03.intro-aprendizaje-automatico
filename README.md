@@ -65,7 +65,9 @@ Con la misma variable del punto anterior, se realizó una regresión polinomial.
 
 
 **Regresión con más de una variable**
-Se eligieron 2 variables más a partir del item de visualización de datos, y se repitió la regresión polinomial con las variables seleccionadas. 
+Se eligieron 3 variables en total a partir del item de visualización de datos (`LSTAT`, `RM`y `NOX`), y se repitió la regresión polinomial con las variables seleccionadas. 
+
+En todos los casos se analizaron los errores de train y test. La métrica seleccionada fue el *mean square error*. 
 
 
 
