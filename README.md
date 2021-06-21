@@ -17,8 +17,8 @@ En este repositorio se encuentran los dos notebooks correspondientes a los dos e
 
 ### Laboratorio 1
 
-En esta primer entrega se trabajó con el dataset de *Boston House Prices*, el cual está disponible en Kaggle 
-https://www.kaggle.com/vikrishnan/boston-house-prices. 
+En esta primer entrega se trabajó con el dataset de *Boston House Prices*, el cual está disponible en el UCI Machine Learning
+https://archive.ics.uci.edu/ml/machine-learning-databases/housing/
 
 #### Descripción de las variables dentro del dataset
 
@@ -44,14 +44,14 @@ Este conjunto de datos contiene los valores de las propiedades en la región de 
 
 #### Breve descripción de los análisis realizados
 
-*Visualización de los Datos*
+**Visualización de los Datos**
 En esta instancia se realizaron gráficos exploratorios para identificar visualmente variables que son más importantes para los posteriores análisis, en este caso, de regresión. 
 
-*Regresión lineal*
+**Regresión lineal**
 Se eligió una variable del dataset, se realizó una regresión lineal simple y se evaluó la recta con las métricas correspondientes. 
 
-*Regresión Polinomial*
+**Regresión Polinomial**
 Con la misma variable del punto anterior, se realizó una regresión polinomial. Se evaluaron lo resultados correspondientes. 
 
-*Regresión con más de una variable*
+**Regresión con más de una variable**
 Se eligieron 2/3 variables más a partir del item de visualización de datos, y se repitió la regresión polinomial con las variables seleccionadas. 
