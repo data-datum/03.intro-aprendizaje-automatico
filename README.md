@@ -47,11 +47,18 @@ Este conjunto de datos contiene los valores de las propiedades en la región de 
 **Visualización de los Datos**
 En esta instancia se realizaron gráficos exploratorios para identificar visualmente variables que son más importantes para los posteriores análisis, en este caso, de regresión. 
 
+
+
 **Regresión lineal**
-Se eligió una variable del dataset, se realizó una regresión lineal simple y se evaluó la recta con las métricas correspondientes. 
+Se eligió una variable del dataset, se realizó una regresión lineal simple y se evaluó la recta con las métricas correspondientes. Esta variable fue `LSTAT`. 
+
 
 **Regresión Polinomial**
 Con la misma variable del punto anterior, se realizó una regresión polinomial. Se evaluaron lo resultados correspondientes. 
 
+
 **Regresión con más de una variable**
-Se eligieron 2/3 variables más a partir del item de visualización de datos, y se repitió la regresión polinomial con las variables seleccionadas. 
+Se eligieron 2 variables más a partir del item de visualización de datos, y se repitió la regresión polinomial con las variables seleccionadas. 
+
+
+
