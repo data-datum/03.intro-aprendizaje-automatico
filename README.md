@@ -21,7 +21,7 @@ En esta primer entrega se trabajó con el dataset de *Boston House Prices*, el c
 https://archive.ics.uci.edu/ml/machine-learning-databases/housing/
 
 #### Descripción de las variables dentro del dataset 
-*(Para un análisis más detallado ver el notebook con nombre `Labo-1.ipynb`)* 
+*(Para un análisis más detallado junto a los resultados y conclusiones correspondientes ver el notebook con nombre `Labo-1.ipynb`)* 
 
 Este conjunto de datos contiene los valores de las propiedades en la región de Boston, donde se considera la información de:
 
@@ -42,6 +42,8 @@ Este conjunto de datos contiene los valores de las propiedades en la región de 
 
 
 *Este dataset no contiene valores nulos, por lo que no es necesario hacer imputaciones.* 
+**Importante**: Durante este análisis no realizaron cálculos ni transformaciones matemáticas que tengan que ver limpieza y curación de datos. 
+
 
 #### Breve descripción de los análisis realizados
 
