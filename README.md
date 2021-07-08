@@ -15,7 +15,7 @@ En este repositorio se encuentran los dos notebooks correspondientes a los dos e
 * Repositorio de Github de la materia: https://github.com/DiploDatos/IntroduccionAprendizajeAutomatico
 
 
-### Laboratorio 1
+### Laboratorio 1 - Regresión
 
 En esta primer entrega se trabajó con el dataset de *Boston House Prices*, el cual está disponible en el UCI Machine Learning
 https://archive.ics.uci.edu/ml/machine-learning-databases/housing/
@@ -70,4 +70,18 @@ Se eligieron 3 variables en total a partir del item de visualización de datos (
 En todos los casos se analizaron los errores de train y test. La métrica seleccionada fue el *mean square error*. 
 
 
+
+### Laboratorio 2 - Clasificación
+
+En esta primer entrega se trabajó con el dataset de *Home Equity dataset*, el cual está disponible en Kaggle 
+https://www.kaggle.com/ajay1735/hmeq-data 
+
+#### Descripción de las variables dentro del dataset 
+*(Para un análisis más detallado junto a los resultados y conclusiones correspondientes ver el notebook con nombre `Labo-2.ipynb`)* 
+
+
+
+**Notas**
+* Este dataset no contiene valores nulos, por lo que no es necesario hacer imputaciones.
+* Durante este análisis no realizaron cálculos ni transformaciones matemáticas que tengan que ver limpieza y curación de datos. 
 
