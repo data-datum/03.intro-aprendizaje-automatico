@@ -80,7 +80,21 @@ https://www.kaggle.com/ajay1735/hmeq-data
 #### Descripción de las variables dentro del dataset 
 *(Para un análisis más detallado junto a los resultados y conclusiones correspondientes ver el notebook con nombre `Labo-2.ipynb`)* 
 
+Variables del modelo:
 
+    'LOAN' (préstamo): Monto de la solicitud de préstamo
+    'MORTDUE': Monto adeudado de la hipoteca existente
+    'VALUE': Valor de la propiedad actual
+    'YOJ': Años en el trabajo actual
+    'DEROG': Número de reportes derogados
+    'DELINQ': Número de créditos adeudados
+    'CLAGE': Antigüedad de la línea de crédito más antigua (en meses)
+    'NINQ': Número de líneas de crédito recientes
+    'CLNO': Número de líneas de crédito
+    'DEBTINC': Relación deuda-ingresos
+
+
+Variable a predecir: TARGET, que hace referencia a si se pagó o no el préstamo. Vale 0 cuando el cliente pagó el préstamo, y 1 cuando no. 
 
 **Notas**
 * Este dataset no contiene valores nulos, por lo que no es necesario hacer imputaciones.
