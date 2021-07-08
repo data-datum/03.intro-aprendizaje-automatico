@@ -21,7 +21,7 @@ En esta primer entrega se trabajó con el dataset de *Boston House Prices*, el c
 https://archive.ics.uci.edu/ml/machine-learning-databases/housing/
 
 #### Descripción de las variables dentro del dataset 
-*(Para un análisis más detallado junto a los resultados y conclusiones correspondientes ver el notebook con nombre `Labo-1.ipynb`)* 
+*(Para un análisis más detallado junto a los resultados y conclusiones correspondientes ver el notebook con nombre `Labo-1-regresion.ipynb`)* 
 
 Este conjunto de datos contiene los valores de las propiedades en la región de Boston, donde se considera la información de:
 
@@ -73,7 +73,8 @@ En todos los casos se analizaron los errores de train y test. La métrica selecc
 
 ### Laboratorio 2 - Clasificación
 
-En esta primer entrega se trabajó con el dataset de *Home Equity dataset*, el cual está disponible en Kaggle 
+En esta segunda entrega se trabajó con el dataset de *Home Equity dataset*, el cual está disponible en Kaggle
+
 https://www.kaggle.com/ajay1735/hmeq-data 
 
 #### Descripción de las variables dentro del dataset 
