@@ -92,9 +92,10 @@ Variables del modelo:
     'NINQ': Número de líneas de crédito recientes
     'CLNO': Número de líneas de crédito
     'DEBTINC': Relación deuda-ingresos
+    'TARGET': Vale 0 cuando el cliente pagó el préstamo, y 1 cuando no. 
 
 
-Variable a predecir: TARGET, que hace referencia a si se pagó o no el préstamo. Vale 0 cuando el cliente pagó el préstamo, y 1 cuando no. 
+Variable a predecir: TARGET, que hace referencia a si se pagó o no el préstamo. 
 
 **Notas**
 * Este dataset no contiene valores nulos, por lo que no es necesario hacer imputaciones.
