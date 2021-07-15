@@ -101,3 +101,26 @@ Variable a predecir: TARGET, que hace referencia a si se pagó o no el préstamo
 * Este dataset no contiene valores nulos, por lo que no es necesario hacer imputaciones.
 * Durante este análisis no realizaron cálculos ni transformaciones matemáticas que tengan que ver limpieza y curación de datos. 
 
+#### Modelos lineales
+
+
+#### Árboles de decisión
+
+En esta etapa se hizo un ajuste del algoritmo por defecto de DecisionTreeClassifier() dando por resultado los siguientes valores. 
+
+
+
+En una siguiente etapa se realizó una optimización de hiperparámetros mediante GridSearchCV de `scikit-learn` para los hiperparámetros:
+* `max_depth` = un barrido de los valores [5, 10, 15, 20, 22]
+* `min_samples_leaf` = un barrido de los valores [1, 5, 10, 15]
+* `criterion` = 'gini' y 'entropy'
+
+Los valores óptimos fueron:
+
+* `max_depth` = 5
+* `min_samples_leaf` = 10
+* `criterion` = 'entropy'
+
+Dando como resultado las siguientes métricas:
+
+
