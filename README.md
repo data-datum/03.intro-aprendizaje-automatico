@@ -107,6 +107,8 @@ En esta primer etapa se ajustaron modelos lineales de clasificación para predec
 
 ##### SGDClassifier con hiperparámetros por defecto
 
+En esta etapa se hizo un ajuste del algoritmo por defecto de `SGDClassifier()` . Solamente se fijo la semilla aleatoria para que sea reproducible. 
+
 Se reportaron valores de
 
     Accuracy
@@ -136,10 +138,7 @@ Se reportó Accuracy promedio y varianza para todas las posibles configuraciones
 
 ##### DecisionTreeClassifier con hiperparámetros por defecto
 
-En esta etapa se hizo un ajuste del algoritmo por defecto de `DecisionTreeClassifier()` 
-
-
-
+En esta etapa se hizo un ajuste del algoritmo por defecto de `DecisionTreeClassifier()` . Solamente se fijo la semilla aleatoria para que sea reproducible. 
 
 Se reportaron valores de 
 
