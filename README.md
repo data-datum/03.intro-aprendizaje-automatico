@@ -103,24 +103,66 @@ Variable a predecir: TARGET, que hace referencia a si se pagó o no el préstamo
 
 #### Modelos lineales
 
+En esta primer etapa se ajustaron modelos lineales de clasificación para predecir la variable objetivo.
+
+##### SGDClassifier con hiperparámetros por defecto
+
+Se reportaron valores de
+
+    Accuracy
+    Precision
+    Recall
+    F1
+    matriz de confusión
+    
+ 
+
+#####  Ajuste de Hiperparámetros de SGDClassifier
+
+Se seleccionaron valores para los hiperparámetros del SGDClassifier. Se probaron diferentes funciones de loss, tasas de entrenamiento y tasas de regularización. 
+Se utilizo un GridSearchCV y una validación cruzada de 5-fold en el conjunto de entrenamiento para explorar combinaciones posibles de valores. 
+Se reportó Accuracy promedio y varianza para todas las posibles configuraciones. Tambien se reportaron valores de 
+
+
+    Accuracy
+    Precision
+    Recall
+    F1
+    matriz de confusión
+    
+
 
 #### Árboles de decisión
 
-En esta etapa se hizo un ajuste del algoritmo por defecto de DecisionTreeClassifier() dando por resultado los siguientes valores. 
+##### DecisionTreeClassifier con hiperparámetros por defecto
+
+En esta etapa se hizo un ajuste del algoritmo por defecto de `DecisionTreeClassifier()` 
 
 
 
-En una siguiente etapa se realizó una optimización de hiperparámetros mediante GridSearchCV de `scikit-learn` para los hiperparámetros:
-* `max_depth` = un barrido de los valores [5, 10, 15, 20, 22]
-* `min_samples_leaf` = un barrido de los valores [1, 5, 10, 15]
-* `criterion` = 'gini' y 'entropy'
 
-Los valores óptimos fueron:
-
-* `max_depth` = 5
-* `min_samples_leaf` = 10
-* `criterion` = 'entropy'
-
-Dando como resultado las siguientes métricas:
+Se reportaron valores de 
 
 
+    Accuracy
+    Precision
+    Recall
+    F1
+    matriz de confusión
+    
+ 
+
+##### Ajuste de Hiperparámetros de DecisionTreeClassifier
+
+Se seleccionaron vvalores para los hiperparámetros del DecisionTreeClassifier. Se probaron diferentes criterios de partición (criterion), profundidad máxima del árbol (max_depth), y cantidad mínima de muestras (samples) por hoja (min_samples_leaf). 
+Se utilizó grid search y un 5-fold CV para el conjunto de entrenamiento para explorar diferentes posibles combinaciones de valores. 
+Se reportaron valores de Accuracy promedio y varianza en todos los casos. 
+También se reportaron valores de 
+
+    Accuracy
+    Precision
+    Recall
+    F1
+    matriz de confusión
+    
+    
