@@ -123,10 +123,10 @@ Se reportaron valores de
 
 Se seleccionaron valores para los hiperparámetros del SGDClassifier. Se probaron diferentes funciones de loss, tasas de entrenamiento y tasas de regularización. 
 Se utilizo un GridSearchCV y una validación cruzada de 5-fold en el conjunto de entrenamiento para explorar combinaciones posibles de valores. 
-Se reportó Accuracy promedio y varianza para todas las posibles configuraciones. Tambien se reportaron valores de 
+Se reportó Accuracy promedio y varianza para todas las posibles configuraciones. En cada fold (o set de datos) mediante validacion cruzada se obtuvieron diversos valores de Accuracy, estos valores se promedian y se reporta este valor promedio. 
+Tambien se reportaron valores de 
 
 
-    Accuracy
     Precision
     Recall
     F1
@@ -158,7 +158,6 @@ Se utilizó grid search y un 5-fold CV para el conjunto de entrenamiento para ex
 Se reportaron valores de Accuracy promedio y varianza en todos los casos. 
 También se reportaron valores de 
 
-    Accuracy
     Precision
     Recall
     F1
