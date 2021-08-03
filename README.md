@@ -155,7 +155,7 @@ Se reportaron valores de
 
 Se seleccionaron vvalores para los hiperparámetros del DecisionTreeClassifier. Se probaron diferentes criterios de partición (criterion), profundidad máxima del árbol (max_depth), y cantidad mínima de muestras (samples) por hoja (min_samples_leaf). 
 Se utilizó grid search y un 5-fold CV para el conjunto de entrenamiento para explorar diferentes posibles combinaciones de valores. 
-Se reportaron valores de Accuracy promedio y varianza en todos los casos. 
+Se reportaron valores de Accuracy promedio y varianza en todos los casos. En cada fold (o set de datos) mediante validacion cruzada se obtuvieron diversos valores de Accuracy, estos valores se promedian y se reporta este valor promedio. 
 También se reportaron valores de 
 
     Precision
